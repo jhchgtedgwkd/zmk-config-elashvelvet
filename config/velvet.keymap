@@ -80,7 +80,7 @@
             >;
 
             label = "BASE";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_1 {
@@ -92,7 +92,7 @@
            &trans  &trans                &trans               &trans           &trans          &trans  &trans            &trans             &trans          &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_2 {
@@ -104,7 +104,7 @@
            &trans  &trans  &trans  &trans  &trans          &trans        &trans        &trans        &bt BT_CLR    &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_3 {
@@ -116,7 +116,7 @@
            &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_4 {
@@ -128,7 +128,7 @@
         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_5 {
@@ -140,7 +140,7 @@
         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_6 {
@@ -152,7 +152,7 @@
         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
 
         layer_7 {
@@ -164,7 +164,7 @@
         &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder &rsr_trans>;
         };
     };
 };
